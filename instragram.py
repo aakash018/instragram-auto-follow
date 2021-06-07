@@ -27,6 +27,7 @@ class Instragram:
 
     def search(self, name):
         driver = self.driver
+        self.name = name
         sleep(3)
         searchBar = driver.find_element_by_xpath(
             '//*[@id="react-root"]/section/nav/div[2]/div/div/div[2]/div[1]')
@@ -43,5 +44,9 @@ class Instragram:
     def follow(self):
         driver = self.driver
         sleep(2)
-        followBtn = driver.find_element_by_class_name("_5f5mN")
-        followBtn.click()
+        try:
+            followBtn = driver.find_element_by_class_name("_5f5mN")
+            followBtn.click()
+        except:
+            print(self.name + " is skipped due to some error")
+            return
