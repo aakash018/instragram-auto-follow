@@ -1,12 +1,12 @@
 # Instragram-auto-follow
 
-If you are one of those who hopes from one accout to other constently, this script might help you alot.
+If you are one of those who hops from one account to other constantly, this script might help you a lot.
 
 As the name suggests you provide list of account names to the script and it will follow them automatically.
 
 ## How to use
 
-If you don't have any knowledge of pyhton, don't worry. You will be fine.
+If you don't have any knowledge of python, don't worry. You will be fine.
 
 - You will need a chromeDriver and chrome browser installed first.
 
